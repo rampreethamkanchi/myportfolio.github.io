@@ -68,6 +68,7 @@ body {
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     box-shadow: 10px 15px 15px orange;
+    /* font-size: calc(1em + 0.1vw); */
     text-align: justify;
     animation-name: ramu;
     animation-duration: 3.2s;
@@ -98,7 +99,8 @@ body {
 .contentheader {
     text-align: center;
     font-family: 'Chela One', cursive;
-    font-size: 2.5em;
+    /* font-size: 2.5em; */
+    font-size: calc(1.7em + 0.8vw);
     font-weight: 100;
 }
 
@@ -109,8 +111,10 @@ body {
     background-color: rgb(245, 247, 127);
     border: 2px solid black;
     border-radius: 100px;
-    padding: 16px;
-    margin: 55px 55px;
+    /* padding: 16px;
+    margin: 55px 55px; */
+    padding: 1.5vw;
+    margin: 5vw 5vw;
     float: left;
     overflow: auto;
 }
@@ -121,8 +125,10 @@ body {
     background-color: rgb(221, 236, 239);
     border: 2px solid black;
     border-radius: 100px;
-    padding: 16px;
-    margin: 32px 55px;
+    /* padding: 16px;
+    margin: 32px 55px; */
+    padding: 1.5vw;
+    margin: 3vw 5vw;
     float: right;
     overflow: auto;
 }
@@ -138,7 +144,7 @@ body {
 
 /* this class is for the content of contentbox2  */
 .content {
-    font-size: 1.25em;
+    font-size: calc(0.85em + 0.5vw);
     font-family: 'Noto Sans', sans-serif;
     font-weight: 200;
 }
@@ -155,6 +161,21 @@ body {
 
     #img7 {
         display: none;
+    }
+
+    .contentbox1 {
+        border-radius: 24px;
+        width: 95%;
+    }
+
+    .contentbox2 {
+        border-radius: 24px;
+        width: 95%;
+    }
+
+    .introinfo {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
 }
 
